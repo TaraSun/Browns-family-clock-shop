@@ -248,7 +248,7 @@ footer #copyright {
 }
 footer #copyright p {
   margin: 6px 0 3px 0;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 footer #copyright p span {
@@ -344,7 +344,7 @@ main {
   align-items: center;
 }
 #services article {
-  margin: 15px 0 25px 0;
+  margin: 15px 0 0px 0;
 }
 #services h3 {
   margin: 0;
