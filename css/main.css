@@ -127,7 +127,7 @@ h4 {
 }
 
 p {
-  font-size: 0.9em;
+  font-size: 1em;
   font-family: 'Lora', serif;
 }
 
@@ -535,7 +535,7 @@ main {
       #homepage #work-frontpage article {
         width: 32%;
         box-sizing: border-box;
-        height: 260px;
+        height: 280px;
       }
 
       #homepage #work-frontpage article p {
@@ -611,12 +611,8 @@ main {
       width: 70%;
       font-size: 1.2em;
     }
-
     #homepage #work-frontpage article {
-      height: 350px;
-    }
-    #homepage #work-frontpage article {
-      height: 220px;
+      height: 230px;
     }
 
     /* ===== About Main Content ==== */
