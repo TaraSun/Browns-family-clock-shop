@@ -289,6 +289,12 @@ main {
   flex-flow: row wrap;
 }
 
+#homepage #work-frontpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 #homepage #work-frontpage article {
   background: rgb(36, 89, 127, 0.65);
   color: #fff;
