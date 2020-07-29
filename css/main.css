@@ -209,6 +209,10 @@ nav ul li{
   color: #FFFFFF;
 }
 
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
 footer {
   background: #D9D9D9;
 }
@@ -263,7 +267,7 @@ main {
 }
 
 #homepage #hero {
-  background: url('../img/desktop-hero-pro.png') center no-repeat;
+  background: url('../img/hero1.png') center no-repeat;
   background-size: cover;
   height: 250px;
   display: flex;
@@ -278,15 +282,7 @@ main {
 #homepage #hero h2 {
   margin: 0;
 }
-#homepage #intro-message,
-#homepage #work-frontpage {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: row wrap;
-}
-
-#homepage #work-frontpage .content-wrapper {
+#homepage #main-content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -296,7 +292,7 @@ main {
 #homepage #work-frontpage article {
   background: rgb(36, 89, 127, 0.65);
   color: #fff;
-  padding: 0px 10px;
+  padding: 5px 10px;
   margin: 10px 0;
   width: 90%;
 }
@@ -305,6 +301,9 @@ main {
   margin: 20px 0 10px 0;
 }
 
+#homepage #work-frontpage a:hover {
+  text-decoration: underline;
+}
 /* ================== About Page ================= */
 #about {
   display: flex;
@@ -358,7 +357,17 @@ main {
 }
 
 #services p {
-  margin-top: 0;
+  margin: 0 0 5px 0;
+}
+
+#services ul {
+  text-align: left;
+  margin: 9px 0;
+}
+
+#services a:hover,
+#services a {
+  text-decoration: underline;
 }
 
 /* ================ Testimonials ================= */
@@ -392,6 +401,7 @@ main {
 #testimonials .test-name {
   text-align: right;
   margin-top: 15px;
+  font-size: 0.85em;
 }
 /* ==========================================================================
    Helper classes
@@ -528,19 +538,30 @@ main {
         width: 50%;
       }
       /* =========== Homepage Main Content ============= */
-      #homepage #work-frontpage .content-wrapper {
+      #homepage #work-frontpage {
         display: flex;
         justify-content: space-between;
       }
       #homepage #work-frontpage article {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
         width: 32%;
         box-sizing: border-box;
-        height: 280px;
+        height: 285px;
+      }
+
+      #homepage #work-frontpage article h4 {
+        width: 85%;
+        text-align: center;
+        margin: 5px;
       }
 
       #homepage #work-frontpage article p {
         text-align: center;
         line-height: 1.3;
+        margin-top: 0;
       }
 
       /* ======= About page Main Content ======= */
@@ -559,20 +580,50 @@ main {
       }
       /* ======== Services Main Content ====== */
       #services .content-wrapper {
-        justify-content: space-between;
+        justify-content: space-around;
         margin-top: 15px;
+        align-items: stretch;
       }
       #services article {
         width: 45%;
+        margin: 10px;
       }
-
+      #services #repair {
+        width: 70%;
+      }
+      #services #nationwide {
+        width: 65%;
+      }
+      #services h3 {
+        margin-bottom: 8px;
+      }
+      #services p {
+        text-align: center;
+      }
+      #services ul {
+        margin: 13px 0;
+      }
       /* ====== Testimonials Main Content ===== */
       #testimonials .content-wrapper {
-        justify-content: space-between;
+        justify-content: center;
         margin-top: 15px;
       }
+      #testimonials h3 {
+        text-align: center;
+        width: 100%;
+        color: #353535;
+        margin: 15px 0;
+        font-size: 2em;
+      }
       #testimonials article {
-        width: 48%;
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        flex-flow: column wrap;
+        height: 350px;
+        padding: 5px 8px;
+        box-sizing: border-box;
       }
     }
 
@@ -612,9 +663,12 @@ main {
       font-size: 1.2em;
     }
     #homepage #work-frontpage article {
-      height: 230px;
+      height: 250px;
     }
 
+    #homepage #work-frontpage article p {
+      margin-top: 10px;
+    }
     /* ===== About Main Content ==== */
 
 
@@ -622,8 +676,34 @@ main {
     #services .content-wrapper {
       margin-top: 25px;
     }
-
+    #services article {
+      margin: 20px 0;
+      width: 40%;
+    }
+    #services #repair {
+      width: 75%;
+    }
+    #services #nationwide {
+      width: 45%;
+    }
+    #services h3 {
+      margin-bottom: 10px;
+    }
+    #services p {
+      text-align: center;
+    }
+    #services ul {
+      margin: 20px 0;
+    }
     /* === Testimonials Main Content === */
+    #testimonials .content-wrapper {
+      justify-content: space-between;
+
+    }
+    #testimonials article {
+      width: 48%;
+      height: 430px;
+    }
   }
 
 
