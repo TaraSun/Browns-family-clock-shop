@@ -252,7 +252,7 @@ footer #copyright {
 }
 footer #copyright p {
   margin: 6px 0 3px 0;
-  font-size: 1em;
+  font-size: 0.7em;
 }
 
 footer #copyright p span {
@@ -529,7 +529,7 @@ main {
       }
 
       header nav {
-        width: 40%;
+        width: 45%;
       }
 
       footer #contact {
