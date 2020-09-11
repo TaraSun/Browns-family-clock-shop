@@ -437,6 +437,10 @@ line-height: 1.4;
 #shipping ol p {
   text-align: left;
 }
+
+#shipping strong {
+  font-size: 0.9em;
+}
 #shipping #packing-slip {
   font-size: 0.8em;
 }
@@ -698,7 +702,7 @@ line-height: 1.4;
       width: 40%;
     }
     header nav ul li {
-      font-size: 1.1em;
+      font-size: 1.0em;
     }
 
     footer #contact {
@@ -761,7 +765,7 @@ line-height: 1.4;
 
     /* === Shipping Main Content === */
     #shipping .content-wrapper {
-      width: 35%;
+      width: 45%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -769,10 +773,14 @@ line-height: 1.4;
     }
 
     #shipping div {
-      margin-bottom:
+      margin-bottom: 20px;
+    }
+
+    #shipping h3 {
+      margin-bottom: 20px;
     }
     #shipping h4 {
-      margin: 40px 0 25px 0;
+      margin: 10px 0 25px 0;
     }
 
     #shipping ol li {
